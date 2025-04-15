@@ -1,0 +1,42 @@
+/* Переменные */
+:root { 
+    --accent-color: #FFD479;
+
+    --font-base: "Roboto", sans-serif;
+    --accent-font: "Bebas Neue", sans-serif;
+}
+
+.content-container {
+    margin: 0 auto;
+    padding: 0 15px;
+    
+    max-width: 1200px;
+    width: 100%;
+}
+
+.contact-container {
+    max-width: 615px;
+}
+
+body {
+    background-color: #1F2A32;
+    color: #FAFAF5;
+    font-family: var(--font-base);
+    font-weight: 300;
+}
+
+.title-1 {
+    font-family: var(--accent-font);
+    font-weight: 700;
+    color: var(--accent-color);
+    font-size: 80px;
+    letter-spacing: 7.5px;
+    line-height: 85x;
+    text-align: center;
+}
+
+a{
+    color: #FFFFFF;
+}
+
+

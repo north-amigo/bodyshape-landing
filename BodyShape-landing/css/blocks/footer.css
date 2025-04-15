@@ -1,0 +1,43 @@
+.footer {
+    padding: 70px 0;
+    padding-bottom: 35px;
+}
+
+.footer a:hover {
+    color: var(--accent-color);
+}
+
+.footer-socials {
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer-contacts {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.footer-contacts-col {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+@media (max-width: 600px) {
+    .footer-contacts {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (hover: none) {
+    .footer a:hover {
+        color: #FAFAF5;
+    }
+}
